@@ -2,7 +2,7 @@
 ### 🌿 *Semeando Saberes — Unindo a Agricultura Sustentável à Universidade*
 
 ---
-
+* **Universsidade Federal do Cariri (UFCA)** 
 * **Centro de Educação a Distância (CEAD)** 
 * **Análise e Desenvolvimento de Sistemas (ADS)** 
 * **Polo:** Maracanaú
