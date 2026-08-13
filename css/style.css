@@ -15,7 +15,6 @@ body {
     min-height: 100vh;
 }
 
-/* Cabeçalho Principal */
 .cabecalho {
     background-color: #2E7D32;
     padding: 20px 8%;
@@ -48,7 +47,6 @@ body {
     opacity: 0.8;
 }
 
-/* Área Principal */
 main {
     flex: 1;
     padding: 40px 8%;
@@ -57,7 +55,6 @@ main {
     margin: 0 auto;
 }
 
-/* Cabeçalho interno do Main (Título + Notificações) */
 main > header {
     display: flex;
     justify-content: space-between;
@@ -81,7 +78,6 @@ main > header span {
     font-weight: 500;
 }
 
-/* Seções Gerais */
 section {
     margin-bottom: 35px;
 }
@@ -96,7 +92,6 @@ section {
     color: #666666;
 }
 
-/* Resumo Dashboard (Cards Lado a Lado) */
 #resumo-dashboard {
     display: flex;
     gap: 20px;
@@ -124,7 +119,6 @@ section {
     font-weight: 600;
 }
 
-/* Próximas Atividades */
 #proximas-atividades h3,
 #recomendacoes h3 {
     color: #2E7D32;
@@ -145,7 +139,6 @@ section {
     border-left: 4px solid #2E7D32;
 }
 
-/* Recomendações */
 #recomendacoes {
     display: flex;
     flex-direction: column;
@@ -174,13 +167,11 @@ section {
     color: #333333;
 }
 
-/* Imagens Responsivas Globais (Requisito da Atividade) */
 img {
     max-width: 100%;
     height: auto;
 }
 
-/* Rodapé */
 footer {
     background-color: #2E7D32;
     text-align: center;
@@ -194,7 +185,6 @@ footer p {
     margin: 0;
 }
 
-/* Media Query para Responsividade (Celulares e Tablets) */
 @media (max-width: 768px) {
     .cabecalho {
         flex-direction: column;
