@@ -70,12 +70,14 @@ main > header h2 {
 }
 
 main > header span {
-    background-color: #E8F5E9;
+    background-color: #FFFFFF;
     color: #2E7D32;
-    padding: 6px 12px;
-    border-radius: 20px;
+    padding: 8px 16px;
+    border: 1px solid #E0E0E0;
+    border-radius: 6px;
     font-size: 14px;
     font-weight: 500;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
 }
 
 section {
@@ -246,7 +248,6 @@ main a[href]:not(.navbar a) {
     background-color: #2E7D32;
 }
 
-/* Estilização do Formulário de Consultorias */
 #formulario-consultoria {
     background-color: #FFFFFF;
     padding: 30px;
