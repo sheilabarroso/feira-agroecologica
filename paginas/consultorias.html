@@ -40,13 +40,43 @@
             <p>Conecte-se com especialistas e estudantes da universidade para tirar dúvidas.</p>
         </section>
 
-        <section>
-            <article>
-                <h4>Nova Consultoria Técnica</h4>
-                <p>Preencha os dados sobre sua cultura ou necessidade de manejo para agendar atendimento com a rede de apoio.</p>
-                <button type="button">Solicitar Consultoria</button>
-            </article>
+        <section id="boas-vindas">
+            <h3>Solicitação de Assistência Técnica</h3>
+            <p>Conecte-se com especialistas e estudantes da universidade para tirar dúvidas.</p>
         </section>
+
+        <section id="formulario-consultoria">
+            <form id="formConsultoria">
+                <div class="grupo-formulario">
+                    <label for="nome">Nome Completo:</label>
+                    <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo">
+                </div>
+
+                <div class="grupo-formulario">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" placeholder="seu@email.com">
+                </div>
+
+                <div class="grupo-formulario">
+                    <label for="telefone">Telefone / Whatsapp:</label>
+                    <input type="tel" id="telefone" name="telefone" placeholder="(00) 00000-0000">
+                </div>
+
+                <div class="grupo-formulario">
+                    <label for="cultura">Cultura / Atividade:</label>
+                    <input type="text" id="cultura" name="cultura" placeholder="Ex: Hortaliças, Milho, Compostagem...">
+                </div>
+
+                <div class="grupo-formulario">
+                    <label for="mensagem">Descrição da Dúvida / Necessidade:</label>
+                    <textarea id="mensagem" name="mensagem" rows="4" placeholder="Descreva brevemente o que precisa de auxílio..."></textarea>
+                </div>
+
+                <button type="submit">Enviar Solicitação</button>
+                <p id="mensagemFeedback" class="feedback" style="margin-top: 15px; font-weight: 500;"></p>
+            </form>
+        </section>
+       
 
     </main>
 

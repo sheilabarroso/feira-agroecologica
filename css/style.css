@@ -102,7 +102,7 @@ section {
     background-color: #FFFFFF;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.02);
     border-left: 5px solid #66BB6A;
     text-align: center;
 }
@@ -149,7 +149,7 @@ section {
     background-color: #FFFFFF;
     padding: 15px;
     border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.02);
     display: flex;
     align-items: center;
     gap: 20px;
@@ -239,9 +239,49 @@ main a[href]:not(.navbar a) {
     font-size: 14px;
 }
 
-button:hover, 
-input[type="button"]:hover, 
-input[type="submit"]:hover, 
-main a[href]:not(.navbar a):hover {
+button, 
+input[type="button"], 
+input[type="submit"], 
+main a[href]:not(.navbar a) {
     background-color: #2E7D32;
+}
+
+/* Estilização do Formulário de Consultorias */
+#formulario-consultoria {
+    background-color: #FFFFFF;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    max-width: 800px;
+}
+
+.grupo-formulario {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.grupo-formulario label {
+    font-weight: 500;
+    margin-bottom: 8px;
+    color: #333333;
+}
+
+.grupo-formulario input,
+.grupo-formulario textarea {
+    padding: 12px;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #333333;
+    background-color: #FAFAFA;
+    transition: border-color 0.2s;
+}
+
+.grupo-formulario input:focus,
+.grupo-formulario textarea:focus {
+    outline: none;
+    border-color: #2E7D32;
+    background-color: #FFFFFF;
 }
